@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'css/gallery.css' %}">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Photo<span>pi</span>X
+            </div>
+            <div class="menu">
+                <a href="{% url 'home' %}">Home</a>
+                <a href="{% url 'about' %}">About</a>
+                <a href="{% url 'gallery' %}">Gallery</a>
+                <a href="{% url 'contact' %}">Contact</a>
+                <a href="{% url 'register' %}">Registration</a>
+            </div>
+            <div class="icon">
+                <a href="{% url 'login' %}">Login</a>
+            </div>
+        </nav>
+
+    </header>
+    <div class="about_div">
+    <div>
+        <h1><u>About-Us</u></h1>
+        <p>Make your business shine online with a custom gallery website designed just for you by a professional designer. Need ideas? We’ve collected some amazing examples of gallery websites from our global community of designers. Get inspired and start planning the perfect gallery web design today.</p>
+    </div>
+    
+        <section class="filter-gallery">
+
+            <h1>Meet Our Amazing Team</h1>
+            <div class="portfolio-item">
+                <div class="item wedding">
+                    <img src="{% static 'images/32.jpg' %}" width="100" height="100">
+                    
+                    <h4>MARTIN PAUL</h4>
+                    <h5>manager</h5>
+                </div>
+                <div class="item wedding">
+                    <img src="{% static 'images/33.jpg' %}" width="100" height="100">
+                     
+                    <h4>MICHAEL RICK</h4>
+                    <h5>supervisor</h5>
+                </div>
+                <div class="item wedding">
+                    <img src="{% static 'images/34.jpg' %}" width="100" height="100">
+                     
+                    <h4>THOMAS CARL</h4>
+                    <h5>supervisor</h5>
+                </div>
+                <div class="item wedding">
+                    <img src="{% static 'images/35.jpg' %}" width="100" height="100">
+                     
+                    <h4>LAURA LEE</h4>
+                    <h5>ceo</h5>
+                </div>
+
+            </div>
+
+
+        </section>
+    </div>
+
+</body>
+
+</html>

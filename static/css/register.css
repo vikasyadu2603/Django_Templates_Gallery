@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+.div1{
+    display: inline-block;
+    margin-left: 50px;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-top: 25px;
+}
+select{
+    width: 410px;
+    height: 30px;
+    margin-top: 30px;
+}
+button{
+    margin-top: 50px;
+    color: ghostwhite;
+    background-color: brown;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+
+span{
+    margin-left: 50px;
+   
+}
+span a{
+    color: brown;
+}

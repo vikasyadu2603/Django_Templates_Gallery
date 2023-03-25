@@ -1,0 +1,27 @@
+.about_div{
+    background-color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    
+}
+.about_div h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: brown;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+p{
+    margin: 0px 100px 0px 100px;
+    font-family: sans-serif;
+    font-size: large;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+}
+h5{
+    text-align: center;
+    color: brown;
+}

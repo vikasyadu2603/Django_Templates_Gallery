@@ -1,0 +1,63 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="{% static 'css/register.css' %}">
+</head>
+
+<body>
+    <form action="">
+        <h1>Registration Here....</h1>
+        <div class="div1">
+            <input type="text" placeholder="First Name"><br><br>
+            <input type="email" placeholder="Email Address"><br><br>
+            <input type="text" placeholder="Phone number"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <select aria-placeholder="Gender">
+                <option>
+                    Gender
+                </option>
+                <option>
+                    Male
+                </option>
+                <option>
+                    Female
+                </option>
+            </select>
+
+        </div>
+        <div class="div1">
+            <input type="text" placeholder="Last Name"><br><br>
+            <input type="text" placeholder="City"><br><br>
+            <input type="text" placeholder="Promo Code (optional)"><br><br>
+            <input type="password" placeholder="Confirm Password"><br><br>
+            <select>
+                <option>
+                    Qualification
+                </option>
+                <option>
+                    B.Tech
+                </option>
+                <option>
+                    MCA
+                </option>
+                <option>
+                    BCA
+                </option>
+            </select>
+        </div>
+    </form>
+        <button>Submit</button>
+        <h4>Already Account <a href="{% url 'login' %}">Login Here..</a>
+            <span><a href="{% url 'home' %}">Home Page</a></span>
+        </h4>
+     
+  
+</body>
+
+</html>

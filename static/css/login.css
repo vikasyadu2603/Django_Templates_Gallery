@@ -1,0 +1,31 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+.div1{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+}
+
+button{
+    margin-top: 20px;
+    color: ghostwhite;
+    background-color: brown;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+span{
+    margin-left: 50px;
+   
+}
+span a{
+    color: brown;
+}

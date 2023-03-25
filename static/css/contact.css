@@ -1,0 +1,23 @@
+.contact input{
+  
+    height: 30px;
+    width: 400px;
+ 
+}
+body{
+    text-align: center;
+}
+#last{
+    height: 60px;
+}
+.contact{
+    margin-top: 50px;
+}
+button{
+    margin-top: 20px;
+    color: ghostwhite;
+    background-color: brown;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
